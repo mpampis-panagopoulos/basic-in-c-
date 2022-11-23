@@ -1,0 +1,5 @@
+int myNum = 5;       // Ακέραιος
+double myFloatNum = 5.99;    // Μεταβλητή κινητής υποδιαστολή
+char myLetter = 'D';         // Χαρακτήρας
+string myText = "Hello";     // Συμβολοσειρά
+bool myBoolean = true;       // Λογικός τελεστής
