@@ -1,0 +1,13 @@
+#include <string>      // Εδώ δηλώνεται το string 
+#include <iostream> // Αλλά ίσως να υπάρχει και εδώ (compiler specific)
+using namespace std;   // Εδώ ανήκει το string (std::string) 
+
+int main() { 
+string s1, s2; // Δε χρειάζεται να καθορίσουμε τα μεγέθη. 
+cin>> s1;     // Ο χώρος του s1 προσαρμόζεται αυτόματα. 
+s2 = "copy of " + s1; // Πρόσθεση συμβολοσειρών. Μετατροπή του πίνακα χαρακτήρων 			//σε string. 
+s1 = "new string";   // Νέα τιμή του s1. 
+cout << s1 << endl << s2 << endl; 
+} 
+
+Πληκτρολογώ"test". Τυπώνει: new string copy of test
