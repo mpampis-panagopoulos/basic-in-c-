@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x, y;
+  int sum; // Καλό είναι το όνομα της μεταβλητής να δείχνει τη χρήση της
+
+  cout << “Dose arithmo: ";
+  cin >> x;
+  cout << " Dose allon arithmo: ";
+  cin >> y;
+  sum = x + y;
+  cout << “To athroisma einai: " << sum;
+  return 0;
+}
